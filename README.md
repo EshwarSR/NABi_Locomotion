@@ -11,3 +11,6 @@ Code has been taken from the [ARS authors repository](https://github.com/modesty
 Change folder to `RL_locomotion` and run `python code/nabi_ars.py` to train the model, `python code/nabi_test_policy.py` to test the model.
 
 MujoCo model XML file and OpenAI gym environment files can be found in the `envs` folder.
+
+### ZMP
+`ZMP` folder contains all the MATLAB code related to ZMP based control. Running `ZMPgenerator` file creates the required trajectory. Later run the `Angles` file. 
